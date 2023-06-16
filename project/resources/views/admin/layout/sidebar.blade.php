@@ -17,10 +17,10 @@
 
             <li class="{{ Request::is('admin/customers') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_customer') }}" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Customers"><i class="bx bx-user bx-tada-hover"></i> <span>Customers</span></a></li>
 
-            <li class="{{ Request::is('admin/order/*') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_orders') }}" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Reservations"><i class="bx bx-bed bx-tada-hover"></i> <span>Reservations</span></a></li>
+            <li class="{{ Request::is('admin/reservation/*') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_orders') }}" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Reservations"><i class="bx bx-bed bx-tada-hover"></i> <span>Reservations</span></a></li>
 
 
-            <li class="{{ Request::is('admin/smart-bookings') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_smart_bookings') }}" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Availability"><i class="bx bx-calendar-star bx-tada-hover"></i> <span>Availability</span></a></li>
+            <li class="{{ Request::is('admin/availability') ? 'active' : '' }}"><a class="nav-link" href="{{ route('admin_smart_bookings') }}" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Availability"><i class="bx bx-calendar-star bx-tada-hover"></i> <span>Availability</span></a></li>
 
 
             <li class="nav-item dropdown {{ Request::is('admin/subscriber/show')||Request::is('admin/subscriber/send-email') ? 'active' : '' }}">
