@@ -1,0 +1,13 @@
+/*-------------rooms styling---------------*/
+
+.rooms{
+    background: linear-gradient(to right,#FEFAE0,transparent),url('../assets/DR_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rooms-content{
+    min-height: 100vh;
+    color: #1A5F7A;
+}
+
