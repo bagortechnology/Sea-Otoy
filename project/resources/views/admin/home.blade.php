@@ -11,7 +11,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Completed Reservations</h4>
+                    <h4>Total Reservations</h4>
                 </div>
                 <div class="card-body">
                     {{ $total_completed_orders }}
@@ -26,10 +26,10 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Pending Reservations</h4>
+                    <h4>Total Sales</h4>
                 </div>
                 <div class="card-body">
-                    {{ $total_pending_orders }}
+                    ₱{{ number_format($total_sales, 2) }}
                 </div>
             </div>
         </div>
